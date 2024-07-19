@@ -1,1 +1,1 @@
-console.log(snacbar);
+console.log("snacbar");
