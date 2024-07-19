@@ -1,2 +1,2 @@
-import"./assets/styles-b979902b.js";console.log("snacbar");
+import"./assets/styles-86cde71d.js";import{i as o}from"./assets/vendor-77e16229.js";document.querySelector(".form").addEventListener("submit",function(t){t.preventDefault();const s=parseInt(t.target.delay.value),i=t.target.state.value;new Promise((e,r)=>{setTimeout(()=>{i==="fulfilled"?e(s):r(s)},s)}).then(e=>{console.log(`✅ Fulfilled promise in ${e}ms`),o.success({title:"Success",message:`✅ Fulfilled promise in ${e}ms`,position:"topRight"})}).catch(e=>{console.log(`❌ Rejected promise in ${e}ms`),o.error({title:"Error",message:`❌ Rejected promise in ${e}ms`,position:"topRight"})}),t.target.reset()});
 //# sourceMappingURL=commonHelpers2.js.map
