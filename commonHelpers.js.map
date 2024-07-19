@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":["../src/js/1-timer.js"],"sourcesContent":["console.log(timer);"],"names":[],"mappings":"oCAAA,QAAQ,IAAI,KAAK"}
+{"version":3,"file":"commonHelpers.js","sources":["../src/js/1-timer.js"],"sourcesContent":["console.log(\"timer\");\n\nimport flatpickr from \"flatpickr\";\n\nimport \"flatpickr/dist/flatpickr.min.css\";\n\nconst flatpickrTimer = new flatpickr('.anotherSelector', {});\n\nconsole.log(flatpickr);"],"names":["flatpickr"],"mappings":"oFAAA,QAAQ,IAAI,OAAO,EAMI,IAAIA,EAAU,mBAAoB,EAAE,EAE3D,QAAQ,IAAIA,CAAS"}
