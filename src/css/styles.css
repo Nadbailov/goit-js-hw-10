@@ -6,11 +6,16 @@
 */
 /* @import url('./reset.css'); */
 
+* 
+{font-family: 'Arial',
+sans-serif;}
+
 .timer {
   display: flex;
   justify-content: space-around;
   width: 300px;
   margin-top: 20px;
+
 }
 
 .field {
